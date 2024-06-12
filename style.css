@@ -43,6 +43,7 @@ header nav ul li a {
 .hero {
     background: url('images/images.jpg') no-repeat center center/cover;
     color: whitesmoke;
+    justify-content: left;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@ header nav ul li a {
 
 .hero .container {
     max-width: 600px;
-    margin: auto;
+    margin: 50px;
 }
 
 .hero h2 {
@@ -117,6 +118,11 @@ header nav ul li a {
     margin: auto;
 }
 .about {
+    text-align: center;
+}
+.about p{
+    width: 75%;
+    margin: auto;
     text-align: center;
 }
 .contact.container {
